@@ -5,8 +5,8 @@ def numbersPyramid(num: int):
     #Outer loop handles the number of rows
     for i in range(num, 0, -1):
         #Inner loop handles the number of columns 
-        for j in range(1, i + 1):
-            print(f"{num - j + 1} ", end = " ")
+        for j in range(i, 0, -1):
+            print(f"{num - j + 1}", end = " ")
         #Print new row
         print()
 
@@ -23,7 +23,7 @@ def numbersPyramidBonus(num: int) -> str:
     #Outer loop handles the number of rows
     for i in range(num, 0, -1):
         #Inner loop handles the number of columns 
-        for j in range(1, i + 1):
+        for j in range(i, 0, -1):
             output += f"{num - j + 1} "
         #New row in the string
         output += "\n"
