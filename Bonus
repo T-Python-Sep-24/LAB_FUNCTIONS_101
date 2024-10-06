@@ -1,0 +1,13 @@
+def return_pattern(n: int) -> str:
+
+    pattern = ""
+    for i in range(n, 0, -1):
+        for j in range(i, 0, -1):
+            pattern += str(j) + " "
+        pattern = pattern + "\n"
+    
+    return pattern
+
+#printing 
+pattern_result = return_pattern(5)
+print(pattern_result)
