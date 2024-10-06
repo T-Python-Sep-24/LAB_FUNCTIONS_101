@@ -1,6 +1,6 @@
 def name(n: int):
     '''
-    the function takes the parameters in integer then print thre given integer down to 1.
+    the function takes the parameters in integer then print the given integer down to 1.
     '''
     for i in range(n, 0, -1):
         for j in range(i, 0, -1):
