@@ -17,4 +17,5 @@ def decreasing_pattern(n: int) -> str:
 # Assign the result to a variable and print it
 result = decreasing_pattern(5)
 print(result)
+print(result.__doc__)
 
